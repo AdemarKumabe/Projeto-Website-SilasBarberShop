@@ -212,6 +212,12 @@ nav{
     color: rgb(0, 0, 0);
     font-size: 1rem;
 }
+/* Efeito de destaque personalizado ao clicar no menu */
+.ul li a:focus {
+    outline: none;
+    border-bottom: 2px solid #A7842A;
+}
+
 
 /*pagina do inicio - main*/
 .container-home{
@@ -595,6 +601,12 @@ nav{
         font-weight: 700;
         font-style: normal;
     }
+    /* Efeito de destaque personalizado ao clicar no menu */
+.ul li a:focus {
+    outline: none;
+    border-bottom: 2px solid #A7842A;
+}
+
 
     .ul.ativo{
         left: 0;
